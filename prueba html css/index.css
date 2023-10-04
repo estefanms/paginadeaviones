@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.fondo-opaco {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('C:/Users/desarrollo/Desktop/prueba html css/FOTOS/fondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    opacity: 0.1;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+nav {
+    background-color: orangered;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: orangered;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.centrari {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
